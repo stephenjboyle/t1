@@ -60,6 +60,9 @@ Individual files can be converted by running the `convert_data.py` script with a
 
 For conversion of the example COMTRADE data files the type `comtrade` should be specified.
 
+# Converting new data
+
+For conversion of new data files (possibly in a different format from the examples) see the [DEVELOPING.md](DEVELOPING.md) file.
 
 ## Testing the code
 
@@ -68,6 +71,7 @@ To test the code, after installing the software and running the `doit` script:
 ```cd tests
 pytest
 ```
+
 
 
 
